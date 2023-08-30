@@ -11,7 +11,6 @@ def index(request):
 
 
 def bus_stations(request):
-
     file_path = settings.BUS_STATION_CSV
     bus_stations = []
 

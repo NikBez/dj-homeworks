@@ -10,7 +10,6 @@ from logistic.serializers import ProductSerializer, StockSerializer
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-    filterset_fields = ['title', 'description']
     search_fields = ['title', 'description']
 
 
